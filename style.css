@@ -1,0 +1,48 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0;/*por padrão os navegadores colocam 8px de espaçamento*/
+}
+#hero{
+    width: 596px;/*se colocar so a largura ele cola na lateral e nao fica centralizado*/
+    margin: 0 auto 72px;/*centraliza. Toma como parâmetro a tag pai (body)*/
+}
+#hero img{
+    margin-bottom: 72px;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    line-height: 56px;
+    font-size: 49px;
+    font-weight: normal;
+    margin-bottom: 72px;
+}
+h1 span{
+    font-weight: bold;
+}
+span, a{
+    color: #FF9900;
+}
+p, #footer{
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+#footer{
+    margin-bottom: 33px;
+}
+#footer a + a{/*dentro do footer pega o "a" anterior a esse "a" e coloca um espaçamento na esquerda ENTRE eles (não pega espaçamento nas extremidades)*/
+    margin-left: 28px;
+}
+#line{
+    width: 568px;
+    height: 0px;
+    border: 1px solid #ECEFF2;
+    margin: 0 auto 8px;
+}
+
+#balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
